@@ -1,0 +1,25 @@
+/* RESET NAVEGADOR */
+
+* {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(112, 23, 23);
+}
+
+h2 {
+    font-size: 55px;
+
+
+}
+
+p {
+    background-color: aqua;
+}
+
+
