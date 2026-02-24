@@ -1,25 +1,45 @@
-/* RESET NAVEGADOR */
-
-* {
-    margin: 0;
-    text-align: center;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 
 body {
-    background-color: rgb(112, 23, 23);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
 }
+
 
 h2 {
-    font-size: 55px;
-
-
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    font-size: 36px;
 }
+
 
 p {
-    background-color: aqua;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 0 15px;
 }
 
 
+button {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0654e4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #0640e2;
+}
